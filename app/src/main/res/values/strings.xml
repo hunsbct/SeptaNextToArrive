@@ -177,8 +177,6 @@
         <item>10</item>
     </string-array>
 
-    <string name="current_time_label">Current Time</string>
-
     <string name="result_number_label">%1$s Train</string>
     <string name="train_number_label">Train Number - %1$s</string>
     <string name="line_label">Line - %1$s</string>

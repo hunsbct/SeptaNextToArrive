@@ -9,23 +9,6 @@
     tools:context="com.example.codyhunsberger.nexttoarrive.MainActivity">
 
     <TextView
-        android:text="@string/current_time_label"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView2"
-        android:textSize="14sp"
-        android:textAlignment="center" />
-
-    <TextClock
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/textClock"
-        android:textAlignment="center"
-        android:textStyle="normal|bold"
-        android:fontFamily="monospace"
-        android:textSize="18sp" />
-
-    <TextView
         android:text="@string/departing_station_label"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
