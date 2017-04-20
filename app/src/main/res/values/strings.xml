@@ -9,14 +9,7 @@
     <string name="nta_base_url">http://www3.septa.org/hackathon/NextToArrive/</string>
 
     <string-array name="stations">
-        <item>30th Street Station</item>
-        <item>Temple U</item>
-        <item>Chestnut Hill East</item>
-        <item>Chestnut Hill West</item>
-        <item>Lansdale</item>
-        <item>Suburban Station</item>
-        <item>North Wales</item>
-        <item>Exton</item>
+        <item>30th Street Station	</item>
         <item>49th St	</item>
         <item>9th St	</item>
         <item>Airport Terminal A	</item>
@@ -40,6 +33,8 @@
         <item>Chelten Avenue	</item>
         <item>Cheltenham	</item>
         <item>Chester TC	</item>
+        <item>Chestnut Hill East	</item>
+        <item>Chestnut Hill West	</item>
         <item>Claymont	</item>
         <item>Clifton-Aldan	</item>
         <item>Colmar	</item>
@@ -63,6 +58,7 @@
         <item>Elkins Park	</item>
         <item>Elm St	</item>
         <item>Elwyn Station	</item>
+        <item>Exton	</item>
         <item>Fern Rock TC	</item>
         <item>Fernwood	</item>
         <item>Folcroft	</item>
@@ -84,6 +80,7 @@
         <item>Ivy Ridge	</item>
         <item>Jenkintown-Wyncote	</item>
         <item>Langhorne	</item>
+        <item>Lansdale	</item>
         <item>Lansdowne	</item>
         <item>Lawndale	</item>
         <item>Levittown	</item>
@@ -109,6 +106,7 @@
         <item>North Broad St	</item>
         <item>North Hills	</item>
         <item>North Philadelphia	</item>
+        <item>North Wales	</item>
         <item>Norwood	</item>
         <item>Olney	</item>
         <item>Oreland	</item>
@@ -134,8 +132,10 @@
         <item>St. Martins	</item>
         <item>Stenton	</item>
         <item>Strafford	</item>
+        <item>Suburban Station	</item>
         <item>Swarthmore	</item>
         <item>Tacony	</item>
+        <item>Temple U	</item>
         <item>Thorndale	</item>
         <item>Torresdale	</item>
         <item>Trenton	</item>
@@ -160,6 +160,7 @@
         <item>Wynnefield Avenue	</item>
         <item>Wynnewood	</item>
         <item>Yardley	</item>
+
 
     </string-array>
 
