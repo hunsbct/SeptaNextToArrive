@@ -1,0 +1,30 @@
+[
+  {
+    "orig_train": "476",
+    "orig_line": "Airport",
+    "orig_departure_time": "11:40PM",
+    "orig_arrival_time": "12:00AM",
+    "orig_delay": "5 mins",
+    "term_train": "3569",
+    "term_line": "Paoli\/Thorndale",
+    "term_depart_time": "12:49AM",
+    "term_arrival_time": " 1:05AM",
+    "Connection": "30th Street Station",
+    "term_delay": "On time",
+    "isdirect": "false"
+  },
+  {
+    "orig_train": "478",
+    "orig_line": "Airport",
+    "orig_departure_time": "12:10AM",
+    "orig_arrival_time": "12:30AM",
+    "orig_delay": "On time",
+    "term_train": "3569",
+    "term_line": "Paoli\/Thorndale",
+    "term_depart_time": "12:49AM",
+    "term_arrival_time": " 1:05AM",
+    "Connection": "30th Street Station",
+    "term_delay": "On time",
+    "isdirect": "false"
+  }
+]

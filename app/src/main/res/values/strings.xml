@@ -1,0 +1,191 @@
+<resources>
+    <string name="app_name">Next To Arrive</string>
+    <string name="departing_station_label">Departing Station:</string>
+    <string name="arriving_station_label">Arrival Station:</string>
+    <string name="results_label">Desired Number of Results:</string>
+    <string name="submit_button_text">Submit</string>
+    <string name="next_button_text">Next</string>
+    <string name="back_button_text">Back</string>
+    <string name="nta_base_url">http://www3.septa.org/hackathon/NextToArrive/</string>
+
+    <string-array name="stations">
+        <item>30th Street Station</item>
+        <item>Temple U</item>
+        <item>Chestnut Hill East</item>
+        <item>Chestnut Hill West</item>
+        <item>Lansdale</item>
+        <item>Suburban Station</item>
+        <item>North Wales</item>
+        <item>Exton</item>
+        <item>49th St	</item>
+        <item>9th St	</item>
+        <item>Airport Terminal A	</item>
+        <item>Airport Terminal B	</item>
+        <item>Airport Terminal C-D	</item>
+        <item>Airport Terminal E-F	</item>
+        <item>Allegheny	</item>
+        <item>Allen Lane	</item>
+        <item>Ambler	</item>
+        <item>Angora	</item>
+        <item>Ardmore	</item>
+        <item>Ardsley	</item>
+        <item>Bala	</item>
+        <item>Berwyn	</item>
+        <item>Bethayres	</item>
+        <item>Bridesburg	</item>
+        <item>Bristol	</item>
+        <item>Bryn Mawr	</item>
+        <item>Carpenter	</item>
+        <item>Chalfont	</item>
+        <item>Chelten Avenue	</item>
+        <item>Cheltenham	</item>
+        <item>Chester TC	</item>
+        <item>Claymont	</item>
+        <item>Clifton-Aldan	</item>
+        <item>Colmar	</item>
+        <item>Conshohocken	</item>
+        <item>Cornwells Heights	</item>
+        <item>Crestmont	</item>
+        <item>Croydon	</item>
+        <item>Crum Lynne	</item>
+        <item>Curtis Park	</item>
+        <item>Cynwyd	</item>
+        <item>Daylesford	</item>
+        <item>Darby	</item>
+        <item>Delaware Valley College	</item>
+        <item>Devon	</item>
+        <item>Downingtown	</item>
+        <item>Doylestown	</item>
+        <item>East Falls	</item>
+        <item>Eastwick Station	</item>
+        <item>Eddington	</item>
+        <item>Eddystone	</item>
+        <item>Elkins Park	</item>
+        <item>Elm St	</item>
+        <item>Elwyn Station	</item>
+        <item>Fern Rock TC	</item>
+        <item>Fernwood	</item>
+        <item>Folcroft	</item>
+        <item>Forest Hills	</item>
+        <item>Ft Washington	</item>
+        <item>Fortuna	</item>
+        <item>Fox Chase	</item>
+        <item>Germantown	</item>
+        <item>Gladstone	</item>
+        <item>Glenolden	</item>
+        <item>Glenside	</item>
+        <item>Gravers	</item>
+        <item>Gwynedd Valley	</item>
+        <item>Hatboro	</item>
+        <item>Haverford	</item>
+        <item>Highland Ave	</item>
+        <item>Highland	</item>
+        <item>Holmesburg Jct	</item>
+        <item>Ivy Ridge	</item>
+        <item>Jenkintown-Wyncote	</item>
+        <item>Langhorne	</item>
+        <item>Lansdowne	</item>
+        <item>Lawndale	</item>
+        <item>Levittown	</item>
+        <item>Link Belt	</item>
+        <item>Main St	</item>
+        <item>Malvern	</item>
+        <item>Manayunk East	</item>
+        <item>Marcus Hook	</item>
+        <item>Market East	</item>
+        <item>Meadowbrook	</item>
+        <item>Media	</item>
+        <item>Melrose Park	</item>
+        <item>Merion	</item>
+        <item>Miquon	</item>
+        <item>Morton	</item>
+        <item>Moylan-Rose Valley	</item>
+        <item>Mt Airy	</item>
+        <item>Narberth	</item>
+        <item>Neshaminy Falls	</item>
+        <item>New Britain	</item>
+        <item>Newark	</item>
+        <item>Norristown TC	</item>
+        <item>North Broad St	</item>
+        <item>North Hills	</item>
+        <item>North Philadelphia	</item>
+        <item>Norwood	</item>
+        <item>Olney	</item>
+        <item>Oreland	</item>
+        <item>Overbrook	</item>
+        <item>Paoli	</item>
+        <item>Penllyn	</item>
+        <item>Pennbrook	</item>
+        <item>Philmont	</item>
+        <item>Primos	</item>
+        <item>Prospect Park	</item>
+        <item>Queen Lane	</item>
+        <item>Radnor	</item>
+        <item>Ridley Park	</item>
+        <item>Rosemont	</item>
+        <item>Roslyn	</item>
+        <item>Rydal	</item>
+        <item>Ryers	</item>
+        <item>Secane	</item>
+        <item>Sharon Hill	</item>
+        <item>Somerton	</item>
+        <item>Spring Mill	</item>
+        <item>St. Davids	</item>
+        <item>St. Martins	</item>
+        <item>Stenton	</item>
+        <item>Strafford	</item>
+        <item>Swarthmore	</item>
+        <item>Tacony	</item>
+        <item>Thorndale	</item>
+        <item>Torresdale	</item>
+        <item>Trenton	</item>
+        <item>Trevose	</item>
+        <item>Tulpehocken	</item>
+        <item>University City	</item>
+        <item>Upsal	</item>
+        <item>Villanova	</item>
+        <item>Wallingford	</item>
+        <item>Warminster	</item>
+        <item>Washington Lane	</item>
+        <item>Wayne Jct	</item>
+        <item>Wayne	</item>
+        <item>West Trenton	</item>
+        <item>Whitford	</item>
+        <item>Willow Grove	</item>
+        <item>Wilmington	</item>
+        <item>Wissahickon	</item>
+        <item>Wister	</item>
+        <item>Woodbourne	</item>
+        <item>Wyndmoor	</item>
+        <item>Wynnefield Avenue	</item>
+        <item>Wynnewood	</item>
+        <item>Yardley	</item>
+
+    </string-array>
+
+    <string-array name="results">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+    <string name="current_time_label">Current Time</string>
+
+    <string name="result_number_label">%1$s Train</string>
+    <string name="train_number_label">Train Number - %1$s</string>
+    <string name="line_label">Line - %1$s</string>
+    <string name="departure_time__label">Scheduled Departure - %1$s</string>
+    <string name="arrival_time_label">Scheduled Arrival - %1$s</string>
+    <string name="status_label">Status -</string>
+    <string name="delay_label_singular">minute late</string>
+    <string name="delay_label_plural">minutes late</string>
+    <string name="transfer_label">Direct Train - %1$s</string>
+
+</resources>

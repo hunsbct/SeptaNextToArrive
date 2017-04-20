@@ -1,0 +1,134 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context="com.example.codyhunsberger.nexttoarrive.OutputFragment">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/resultNumberTv" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/trainNumberTv"
+        android:fontFamily="monospace"
+        android:textSize="18sp"
+        android:typeface="normal"
+        android:textAlignment="textStart"
+        android:textAllCaps="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lineTv"
+        android:fontFamily="monospace"
+        android:textSize="18sp"
+        android:typeface="normal"
+        android:textAlignment="textStart"
+        android:textAllCaps="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/transferTv"
+        android:fontFamily="monospace"
+        android:textSize="18sp"
+        android:typeface="normal"
+        android:textAlignment="textStart"
+        android:textAllCaps="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/departureTimeTv"
+        android:fontFamily="monospace"
+        android:textSize="18sp"
+        android:typeface="normal"
+        android:textAlignment="textStart"
+        android:textAllCaps="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/arrivalTimeTv"
+        android:fontFamily="monospace"
+        android:textSize="18sp"
+        android:typeface="normal"
+        android:textAlignment="textStart"
+        android:textAllCaps="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="@string/status_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/statusTv"
+            android:fontFamily="monospace"
+            android:textSize="18sp"
+            android:typeface="normal"
+            android:textAlignment="textStart"
+            android:textAllCaps="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/status_value_tv"
+            android:fontFamily="monospace"
+            android:textSize="18sp"
+            android:typeface="normal"
+            android:textAlignment="textStart"
+            android:textAllCaps="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/delayTv"
+            android:fontFamily="monospace"
+            android:textSize="18sp"
+            android:typeface="normal"
+            android:textAlignment="textStart"
+            android:textAllCaps="true" />
+
+        </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:text="@string/back_button_text"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:id="@+id/back_button" />
+
+        <Button
+            android:text="@string/next_button_text"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:id="@+id/next_button" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
